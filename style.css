@@ -1,0 +1,48 @@
+:root{
+
+  --primary1: #0F3C8B;
+  --primary2: #1B51A1;
+  --primary3: #356CB5;
+
+  --secondary1: #980001;
+  --secondary2: #CC0000;
+  --secondary3: #E82734;
+
+  --white: #fff;
+
+}
+
+.brand > img{
+  width: 100px;
+}
+
+header{
+  /* background-color: lightgray; */
+  padding: 10px 0px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.menu a{
+  cursor: pointer;
+  font-size: 16pt;
+  color: var(--primary1) !important;
+  margin-right: 10px;
+  transition: 0.3s ease;
+  /* border-bottom: 0px solid transparent; */
+  border-bottom: 2px solid var(--secondary1);
+  
+}
+
+.menu a:hover{
+  color: var(--secondary1) !important;
+  border-bottom-width: 100%;
+}
+
+.menu{
+}
